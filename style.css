@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap'); 
+body {
+  background-image: url('/images/background.jpg');
+  font-family: 'Poppins', Sans-Serif;
+  margin: 20px;
+  overflow: auto;
+}
+header {
+  color: white;
+  margin: 20px 0 20px 0;
+  text-align: left;
+  font-size: 0.8em;
+}
+.ae1, .ae2, .ae3, .ae4, .ae5, .ae6, .ae7, .ae8 {
+  font-weight: 300;
+    font-size: 1rem;
+    color: white;
+    opacity: 0.7;
+    text-align: left;
+    margin: 20px 0;
+    hyphens: auto;
+}
+#ae3, #ae8 {
+  font-weight: 300;
+  font-size: 1rem;
+  color: white;
+  opacity: 0.7;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-align: left;
+  margin: 20px 0;
+}
+.albert {
+  text-align: center;
+  margin: 20px 0;
+}
+.albert img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.credits {
+  color: white;
+  font-size: 10px;
+  opacity: 0.5;
+}
+@media (min-width: 768px) {
+  .ae1, .ae2, .ae3, .ae4, .ae5, .ae6, .ae7, .ae8, #ae3, #ae8 {
+    text-align: justify;
+    hyphens: auto;
+  }
